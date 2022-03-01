@@ -1,6 +1,7 @@
 import Layout from "../../components/layout/Layout";
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
 import { useRouter } from "next/router";
+import Head from "next/head";
 const newMeetup = (props) => {
   const router = useRouter();
   async function newMeetUpFormHandler(newMeetupData) {
